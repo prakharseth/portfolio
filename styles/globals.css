@@ -1,16 +1,33 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Open+Sans:wght@300;400&family=Play:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.me {
+    font-family: 'Play';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.plogo {
+    color: #FD2155;
+    text-shadow: -3px 0px 0px #05FDD8;
 }
 
-* {
-  box-sizing: border-box;
+.tag {
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    /* line-height: 16px; */
+    color: #808080;
+}
+
+.blast {
+    opacity: 0;
+    /* display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out; */
+    transition: all 0.3s ease-out;
 }
