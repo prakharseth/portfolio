@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <title>PS || Front-End Developer</title>
         <link rel='icon' type='image/png' href='/p.png' />
       </Head>
       <div className='bg-[#1D1D1D] h-screen text-white flex flex-col justify-center px-5 '>
