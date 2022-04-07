@@ -1,14 +1,14 @@
 import React from "react";
 function Hero() {
   return (
-    <div className='mb-12  mt-32'>
+    <div className='mb-12  mt-32 '>
       {/* h1 */}
       <div>
         <div className='tag '>{"<h1>"}</div>
         {/* <Image src={p} /> */}
-        <div className='me pl-5 text-4xl'>
+        <div className='me pl-5 text-4xl '>
           Hi,{" "}
-          <div>
+          <div className=''>
             I’m <span className='plogo '>P</span>rakhar,
           </div>{" "}
           Web Developer
