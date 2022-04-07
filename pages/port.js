@@ -9,12 +9,12 @@ import image6 from "../public/portfolio/6.svg";
 function port() {
   return (
     <div>
-      <div className='font-play font-bold text-4xl text-[#05FDD8] mt-40'>
+      <div className='font-play font-bold text-4xl text-[#FD2155] mt-40'>
         My Portfotlio
       </div>
       <div className='pt-7 font-play uppercase text-sm pr-5'>
         A small gallery of recent{" "}
-        <span className='text-[#05FDD8]'>projects</span> chosen by me.{" "}
+        <span className='text-[#FD2155]'>projects</span> chosen by me.{" "}
       </div>
       <div className='grid grid-flow-col grid-rows-3 gap-3 pt-10'>
         <a href='https://animania.vercel.app/'>

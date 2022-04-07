@@ -24,9 +24,9 @@ function Hero() {
         </div>
         <div className='tag pt-2'>{"</p>"}</div>
       </div>
-      <button className='mt-8 tracking-widest w-36 border text-center border-[#05FDD8] hover:fill-slate-500'>
+      <button className='mt-8 tracking-widest w-36 border text-center border-[#FD2155] hover:fill-slate-500'>
         <a href='mailto:sethprakhar12@gmail.com'>
-          <div className='font-open text-sm text-[#05FDD8] px-4 py-1'>
+          <div className='font-open text-sm text-[#FD2155] px-4 py-1'>
             Contact me !
           </div>
         </a>
